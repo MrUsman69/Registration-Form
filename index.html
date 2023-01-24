@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<style>
+
+h1 {text-transform: uppercase; letter-spacing: 0.2em;}
+.credits {
+font-weight: bold;
+word-spacing: 1em;}
+
+body {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+</style>
+<body style="background-color: aqua;">
+<div class="head">
+    <h1 style="text-align: center;"> <u> Registration &nbsp; Form </u></h1>
+    <br>
+    </div>
+    <div class="container">
+        <br>
+    <form>
+        <p class="first">
+         <label for="firs">
+         FULL NAME:&nbsp; &nbsp; <span>
+        </span></label>
+         <input type="text" name="first" id="firs" max="30" placeholder="(30 characters)" required="">   
+        </p>
+        <p class="last">
+         <label for="las">
+
+         CNIC NUMBER:&nbsp; &nbsp; <span>
+         </span></label>
+         <input type="text" name="last" id="las" placeholder="xxxxx-xxxxxxx-x">
+        </p>
+        <p class="dob">
+
+
+            FATHER NAME:&nbsp; &nbsp; <span>
+         </span></label>
+         <input type="text" name="last" id="las" max="30" placeholder="(30 characters)" required="">
+        </p>
+        <p class="dob">
+           DATE OF BIRTH:&nbsp; &nbsp; <span>
+            <select name="dob" required="">
+                <option value="day">Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+            <select name="dob" required="">
+                <option value="mon">Month</option>
+                <option value="jan">January</option>
+                <option value="feb">Feburary</option>
+                <option value="mar">March</option>
+                <option value="apr">April</option>
+                <option value="may">May</option>
+                <option value="jun">June</option>
+                <option value="jul">July</option>
+                <option value="aug">August</option>
+                <option value="sep">September</option>
+                <option value="oct">October</option>
+                <option value="nov">November</option>
+                <option value="dec">December</option>
+            </select>
+            <select name="dob" required="">
+                <option value="year">Year</option>
+                <option value="81">1981</option>
+                <option value="82">1982</option>
+                <option value="83">1983</option>
+                <option value="84">1984</option>
+                <option value="85">1985</option>
+                <option value="86">1986</option>
+                <option value="87">1987</option>
+                <option value="88">1988</option>
+                <option value="89">1989</option>
+                <option value="90">1990</option>
+                <option value="91">1991</option>
+                <option value="92">1992</option>
+                <option value="93">1993</option>
+                <option value="94">1994</option>
+                <option value="95">1995</option>
+                <option value="96">1996</option>
+                <option value="97">1997</option>
+                <option value="98">1998</option>
+                <option value="99">1999</option>
+                <option value="00">2000</option>
+                <option value="01">2001</option>
+                <option value="02">2002</option>
+                <option value="03">2003</option>
+                <option value="04">2004</option>
+                <option value="05">2005</option>
+                <option value="06">2006</option>
+                <option value="07">2007</option>
+                <option value="08">2008</option>
+                <option value="09">2009</option>
+                <option value="10">2010</option>
+                <option value="11">2011</option>
+                <option value="12">2012</option>
+                <option value="13">2013</option>
+                <option value="14">2014</option>
+                <option value="15">2015</option>
+                <option value="16">2016</option>
+                <option value="17">2017</option>
+                <option value="18">2018</option>
+                <option value="19">2019</option>
+                <option value="20">2020</option>
+                <option value="21">2021</option>
+                <option value="22">2022</option>
+                <option value="23">2023</option>
+               
+            </select>
+        </span></p>
+        <p class="email">
+            <label for="emai">EMAIL: &nbsp; &nbsp;<span></span></label>
+            <input type="email" name="email" id="emai" required="" placeholder="xyz123@gmail.com">
+        </p>
+        <p class="tel">
+            <label for="tel">PHONE NUMBER:&nbsp; &nbsp;</label><span>
+            <input type="tel" name="number" id="tel" max="11" min="12" required="" placeholder="0333-0000000">
+        </span></p>
+        <p class="gender">
+            GENDER:&nbsp; &nbsp; <span>
+            <input type="radio" name="gender" id="fe">
+            <label for="fe">Male</label>
+            <input type="radio" name="gender" id="ma" checked="">
+            <label for="ma">female</label>
+        </span></p>
+        <p class="address">
+            ADDRESS:&nbsp; &nbsp; <span>
+           <input type="text" name="Adress" id="Adress" max="100" placeholder="(max 100 characters)">
+        </span></p>
+
+         <p class="city">
+            <label for="city">CITY:&nbsp; &nbsp;</label><span>
+            <input type="text" name="cit" id="city" max="15" required="" placeholder="(max 15 characters)">  
+        </span></p> 
+        
+        <p class="country">
+            <label for="country">COUNTRY:&nbsp; &nbsp;</label> <span>
+            <input type="text" name="count" id="Country" required="" placeholder="(max 20 characters)">
+        </span></p>
+
+        <p class="state">
+            <label for="state">STATE:&nbsp; &nbsp;</label><span>
+            <input type="text" name="stat" id="state" max="30" placeholder="30 characters" required="">
+        </span></p>
+
+        <p class="pc">
+            <label for="code">POSTAL CODE:&nbsp; &nbsp;</label><span>
+            <input type="number" name="postal" id="code" max-length="6" placeholder="(6 characters number)" required="">
+        </span></p>
+        
+       
+        <p class="hobby">
+            HOBBIES:&nbsp; &nbsp; <span>
+            <input type="checkbox" name="hobbies" value="Reading">
+            <label for="drawing">Reading</label>
+            <input type="checkbox" name="hobbies" value="Cricket">
+            <label for="singing">Cricket</label>
+            <input type="checkbox" name="hobbies" value="Video Games">
+            <label for="sketching">Video Games</label>
+            <input type="checkbox" name="hobbies" value="Gardening">
+            <label for="dancing">Gardening</label>
+            <input type="checkbox" name="hobbies" value="others">
+            <label for="other">Others</label>
+        </span></p>
+        <p class="quali">
+            QUALIFICATION:&nbsp; &nbsp; <span>
+            <select name="qualification" id="qualifica" required="">
+                <option value="Matriculation"> Matriculation</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Graduation">Graduation</option>
+                <option value="Masters">Masters</option>
+                <option value="P.hd">P.hd</option>
+            </select>
+        </span></p>
+        <p class="apply">
+            COURSE APPLIED FOR:&nbsp; &nbsp; <span>
+            <input type="radio" name="apply" id="PMA.LC">
+            <label for="webd">PMA Long Course</label>
+            <input type="radio" name="apply" id="TCC">
+            <label for="ai">Technical Cadet Course</label>
+            <input type="radio" name="apply" id="LCC">
+            <label for="graphic">Lady Cadet Course</label>
+        </span></p>
+        <br>
+        <div class="sub" style="text-align: center;">
+        <input type="submit" value="SUBMIT">
+        <input type="reset" value="RESET">
+        </div>
+       
+    </form>
+</div>
+
+</body>
+</body>
+</html>
+   
